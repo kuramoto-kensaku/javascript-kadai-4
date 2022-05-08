@@ -1,0 +1,44 @@
+body {
+  background-color: black; 
+}
+
+p,h1 {
+  color: white;
+  width: 70%;
+  margin: 0 auto;
+}
+
+.slider .s-img {
+  height: 500px;
+}
+
+.slider {
+  width: 70%;
+  margin: 30px auto;
+}
+
+.slide-arrow {
+  position: absolute;
+  top: 50%;
+  cursor : pointer;
+}
+
+.prev-arrow{
+  left: -40px;
+  border-left: 0 solid transparent;
+  border-right: 15px solid #FF0000;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  width: 0;
+  height: 0;
+}
+
+.next-arrow{
+  right: -40px;
+  border-right: 0 solid transparent;
+  border-left: 15px solid #FF0000;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  width: 0;
+  height: 0;
+}
